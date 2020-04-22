@@ -173,6 +173,7 @@
   margin-bottom: 5rem;
 }
 
+
 .projects-section {
   padding: 10rem 0;
 }
@@ -218,6 +219,28 @@
     width: 30%;
   }
 }
+
+
+<!--inicio-->
+.inicio-section .inicio-section-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .inicio-section .inicio-section-text {
+    padding: 5rem;
+  }
+  .inicio-section .inicio-section-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+
+
+
+
 
 .signup-section {
   padding: 10rem 0;
