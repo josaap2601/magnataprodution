@@ -698,6 +698,7 @@ pre code {
   max-width: 91.666667%;
 }
 
+
 .col-12 {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
@@ -995,6 +996,7 @@ pre code {
   }
 }
 
+
 @media (min-width: 768px) {
   .col-md {
     -ms-flex-preferred-size: 0;
@@ -1241,10 +1243,24 @@ pre code {
     flex: 0 0 100%;
     max-width: 100%;
   }
+
+
+
+  /*texte para slider principal*/
+  .col-lg-13 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+
+
+
   .order-lg-first {
     -ms-flex-order: -1;
     order: -1;
   }
+  
   .order-lg-last {
     -ms-flex-order: 13;
     order: 13;

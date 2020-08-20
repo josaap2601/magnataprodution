@@ -3,7 +3,6 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
-
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -89,7 +88,7 @@
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding: 15rem 0;
+  padding: 20rem 0;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -147,6 +146,7 @@
   border: 0;
 }
 
+
 .btn-primary {
   background-color: #64a19d;
 }
@@ -159,6 +159,7 @@
   background-color: #4f837f;
   color: white;
 }
+
 
 .btn-primary:active {
   background-color: #467370 !important;
@@ -221,6 +222,22 @@
 }
 
 
+.serigrafia-section .serigrafia-section-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .serigrafia-section .serigrafia-section-text {
+    padding: 5rem;
+  }
+  .serigrafia-section .serigrafia-section-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+
 <!--inicio-->
 .inicio-section .inicio-section-text {
   padding: 3rem;
@@ -236,11 +253,6 @@
     width: 30%;
   }
 }
-
-
-
-
-
 
 .signup-section {
   padding: 10rem 0;
